@@ -1,0 +1,37 @@
+# Development dependencies
+# Install with: pip install -r requirements-dev.txt
+
+# Include base requirements
+-r requirements.txt
+
+# Testing
+pytest>=7.0
+pytest-cov>=4.0
+pytest-env>=0.8
+pytest-mock>=3.10
+
+# Code quality
+black>=23.0
+flake8>=6.0
+isort>=5.12
+mypy>=1.0
+
+# Pre-commit hooks
+pre-commit>=3.0
+
+# Documentation
+sphinx>=5.0
+sphinx-rtd-theme>=1.0
+
+# Build tools
+build>=0.10
+twine>=4.0
+
+# Development utilities
+ipython>=8.0
+pip-tools>=6.0
+
+# All optional dependencies for testing
+openai>=1.0.0
+pyyaml>=5.4
+pydantic>=2.0
